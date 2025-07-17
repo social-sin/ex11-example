@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+font-family: 'Merriweather', serif;
+  color: #172c66;
+}
+h2, p {
+font-family: 'silkscreen', cursive;
+}
