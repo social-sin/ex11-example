@@ -1,12 +1,33 @@
-*{
+/* Reset */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Header fonts and colors */
 h1 {
-font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif;
   color: #172c66;
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0;
 }
-h2, p {
-font-family: 'silkscreen', cursive;
+
+h2 {
+  font-family: 'Silkscreen', cursive;
+  color: #444;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Paragraph styling */
+p {
+  font-family: 'Silkscreen', cursive;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #222;
+  margin: 1rem auto;
+  max-width: 700px;
+  padding: 0 1rem;
 }
